@@ -10,7 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 # Load the data
-df = pd.read_csv("Salary_Data.csv")
+df = pd.read_csv("Salary_Data_10000.csv")
 df.dropna(inplace=True)
 
 # Encode categorical data
